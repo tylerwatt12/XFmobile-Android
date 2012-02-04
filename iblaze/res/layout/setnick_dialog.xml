@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="wrap_content"><TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center" android:text="@string/enter_new_nick" android:id="@+id/tvSetNick"></TextView><EditText android:layout_height="wrap_content" android:id="@+id/etNickname" android:layout_below="@+id/tvSetNick" android:layout_marginTop="5dp" android:layout_width="fill_parent" android:layout_centerHorizontal="false" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:maxLines="1" android:maxLength="25" android:scrollHorizontally="true"></EditText>
+
+</RelativeLayout>

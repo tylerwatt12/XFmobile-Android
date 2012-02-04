@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/set_nick" android:title="Chanage Nickname" android:icon="@drawable/nick"></item>
+<item android:id="@+id/set_status" android:title="Change Status" android:icon="@drawable/mode"></item>
+
+<item android:id="@+id/log_off" android:title="Log Off" android:icon="@drawable/logoff"></item>
+
+<item android:id="@+id/preference " android:title="Settings" android:icon="@drawable/settings"></item>
+<item android:id="@+id/add_friend" android:icon="@drawable/add_friend" android:title="Add friends..." android:visible="true"></item>
+</menu>

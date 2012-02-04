@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animationCache="true" android:soundEffectsEnabled="true" android:focusable="false" android:scrollbarAlwaysDrawVerticalTrack="true" android:clipToPadding="false" android:background="#ff12283f">
+
+
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout04" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_width="fill_parent">
+
+
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content"><ImageView android:id="@+id/ImageView01" android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/logoxf"></ImageView>
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="username:" android:textSize="20px" android:minHeight="20px" android:textColor="#FF8ABAF1"></TextView>
+<EditText android:imeOptions="actionDone"  android:layout_height="wrap_content" android:autoText="true" android:layout_width="fill_parent" android:id="@+id/username" android:singleLine="true" android:minHeight="40px" android:ellipsize="none"></EditText>
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical"><TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="password:" android:soundEffectsEnabled="false" android:textSize="20px" android:singleLine="true" android:textColor="#FF8ABAF1"></TextView>
+<EditText android:imeOptions="actionDone"  android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/password" android:password="true" android:singleLine="true" android:minHeight="40px"></EditText>
+</LinearLayout>
+
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+<CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/autologin" android:text="Auto-Login" android:textColor="#FF8ABAF1"></CheckBox><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/login_button" android:minHeight="40px" android:minWidth="80px" android:textColor="#ff000000" android:text="Login" android:layout_x="300px"></Button>
+
+
+
+
+</AbsoluteLayout>
+
+
+
+
+
+
+
+
+<LinearLayout android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+</LinearLayout>
+</LinearLayout>

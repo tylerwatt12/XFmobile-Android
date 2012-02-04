@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/groupname"
+		 xmlns:android="http://schemas.android.com/apk/res/android"
+         android:textSize="16px"
+         android:paddingLeft="50px"
+         android:layout_width="fill_parent"
+         android:height="40px" android:minHeight="40px" android:lines="2" android:lineSpacingExtra="10px" android:layout_height="fill_parent" android:text="Online Friends" android:textStyle="bold|italic" android:background="#ff12283f" android:textColor="#FF8ABAF1" android:linksClickable="true"/>

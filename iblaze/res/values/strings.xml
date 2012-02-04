@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, iblaze!</string>
+    <string name="app_name">XFMobile</string>
+
+ <string name="afk">Away From Keyboard</string> 
+  <string name="change_nickname">Change Nickname</string> 
+  <string name="change_status">Change Status</string> 
+  <string name="convo_with">Conversation with</string> 
+  <string name="enter_new_nick">Enter your new nickname:</string> 
+  <string name="getting_screenshots">Getting screenshots...</string> 
+  <string name="logged_in_elsewhere">You have been logged in elsewhere.</string> 
+  <string name="logging_in">Logging in to Xfire...</string> 
+  <string name="login">Login</string> 
+  <string name="log_off">Log Off</string> 
+  <string name="message_from">Message from</string> 
+  <string name="new_nickname">New nickname</string> 
+  <string name="notification_settings">Notification settings</string> 
+  <string name="no">No</string> 
+  <string name="no_description">No description.</string> 
+  <string name="no_screenshots">There are no screenshots for this user.</string> 
+  <string name="ok">OK</string> 
+  <string name="on_mobile_expl">This action may take a long time on a cellular network! Are you sure?</string> 
+  <string name="password">Password</string> 
+  <string name="please_wait">Please wait</string> 
+  <string name="preferences">Preferences</string> 
+  <string name="reset_status">Reset status</string> 
+  <string name="screenshots_for">Screenshots for</string> 
+  <string name="send">Send</string> 
+  <string name="send_on_enter">Send on Enter</string> 
+  <string name="send_on_enter_summ">Send messages when Enter is pressed</string> 
+  <string name="set_status">Set status</string> 
+  <string name="show_mobile_warnings">Show mobile warnings</string> 
+  <string name="show_mobile_warnings_summ">Show warnings when on a cell network</string> 
+  <string name="username">Username</string> 
+  <string name="view_profile">View Profile</string> 
+  <string name="view_screenshots">View Screenshots</string> 
+  <string name="warning">Warning</string> 
+  <string name="xfdroid_notifications">XfDroid notifications</string> 
+  <string name="xfdroid_notifications_summ">Display notifications for certain events</string> 
+  <string name="yes">Yes</string> 
+
+<string name="login_failed">Your Xfire Name and password were not recongnised.\nPlease try again.</string>
+</resources>

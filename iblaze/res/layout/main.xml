@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:admobsdk="http://schemas.android.com/apk/res/com.iblazeapp"
+               
+
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:animationCache="true" android:soundEffectsEnabled="true" android:focusable="false" android:scrollbarAlwaysDrawVerticalTrack="true" android:clipToPadding="false" android:background="#ff12283f">
+
+
+
+       
+
+
+
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:paddingTop="3dip" android:background="#ff12283f">
+    
+    
+    
+
+
+<TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:text="XFMOBILE" android:textStyle="bold" android:gravity="center_horizontal" android:layout_width="fill_parent"></TextView>
+</RelativeLayout>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="username"></TextView><TableLayout android:id="@+id/TableLayout01" 
+
+android:layout_height="wrap_content" 
+
+  android:background="#ffffff" android:layout_width="fill_parent" android:orientation="horizontal">  
+
+<EditText 
+
+ android:layout_marginLeft="1px" 
+android:layout_marginBottom="1px" 
+android:layout_marginRight="1px" 
+android:layout_marginTop="1px" 
+
+style="?android:attr/textViewStyle" 
+android:imeOptions="actionDone"  android:autoText="true" android:id="@+id/username" android:singleLine="true" android:ellipsize="none" android:minHeight="20px" android:maxHeight="20px" android:layout_height="40px" android:layout_width="fill_parent" android:background="#ff12283f" android:textColor="#ffffffff" android:inputType="textNoSuggestions"></EditText>
+
+
+
+</TableLayout>
+
+</LinearLayout><LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical">
+
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="password"></TextView><TableLayout android:id="@+id/TableLayout01" 
+
+android:layout_height="wrap_content" 
+
+  android:background="#ffffff" android:layout_width="fill_parent" android:orientation="horizontal">  
+<EditText
+
+android:layout_marginLeft="1px" 
+android:layout_marginBottom="1px" 
+android:layout_marginRight="1px" 
+android:layout_marginTop="1px" 
+
+style="?android:attr/textViewStyle" 
+android:imeOptions="actionDone"  android:id="@+id/password" android:password="true" android:singleLine="true" android:minHeight="40px" android:layout_height="40px" android:layout_width="fill_parent" android:background="#ff12283f" android:textColor="#ffffffff"></EditText>
+ 
+ 
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/Button_Login" android:text="Login"></Button>
+</TableLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

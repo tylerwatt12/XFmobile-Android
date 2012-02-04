@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		  xmlns:admobsdk="http://schemas.android.com/apk/res/com.iblazeapp"
+         android:orientation="vertical"
+         android:layout_width="fill_parent" 
+         android:layout_height="fill_parent" android:background="#ff12283f">
+ 
+
+ 
+     
+               
+     <com.google.ads.GoogleAdView
+    android:id="@+id/adview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    
+     <ExpandableListView android:id="@+id/android:list"
+               android:layout_width="fill_parent" 
+               android:layout_height="fill_parent" android:headerDividersEnabled="true" android:choiceMode="singleChoice" android:dividerHeight="1px" android:background="#ff12283f" android:footerDividersEnabled="true" android:smoothScrollbar="true" android:clickable="false" android:focusableInTouchMode="false" android:groupIndicator="@drawable/gfire" android:divider="#FF8ABAF1">
+               </ExpandableListView>
+ 
+     <TextView android:id="@+id/android:empty"
+               android:layout_width="fill_parent" 
+               android:layout_height="fill_parent" android:textColor="#ffffffff"/>
+
+</LinearLayout>
+
+
+    
+         

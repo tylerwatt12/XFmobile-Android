@@ -1,0 +1,16 @@
+Flurry Android SDK v2.01
+Build: 108
+Released: 2/1/11
+
+Release notes for v2.01:
+------------------------------------------------
+Fixed potential race condition.
+
+Release notes for v2.0:
+------------------------------------------------
+Initial release with AppCircle
+
+Release notes for v1.24:
+------------------------------------------------
+- Page View tracking added
+

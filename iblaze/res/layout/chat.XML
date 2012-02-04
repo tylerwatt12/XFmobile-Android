@@ -1,0 +1,30 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:scrollbars="vertical">
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="10px">
+
+		<ImageView android:id="@+id/imageBuddy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:src="@drawable/user_on"
+			android:paddingLeft="5px" />
+
+		<TextView android:id="@+id/lbl_buddy"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="username"
+			/>
+	
+		<TextView android:id="@+id/log_chat"
+			android:layout_width="fill_parent" android:layout_height="270px"
+			android:layout_below="@id/imageBuddy" />
+
+		<EditText android:id="@+id/txt_chat"
+			android:layout_width="240px" android:layout_height="wrap_content"
+			android:layout_below="@id/log_chat" />
+
+	</RelativeLayout>
+</ScrollView>

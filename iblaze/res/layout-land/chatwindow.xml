@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>	
+
+				
+		
+
+		
+			
+			
+	
+	
+	
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="wrap_content" android:background="#ff12283f" android:layout_height="wrap_content"><ListView android:smoothScrollbar="true" 
+		android:stackFromBottom="true"  
+            android:transcriptMode="alwaysScroll" android:layout_width="fill_parent" android:visibility="visible" android:soundEffectsEnabled="true" android:id="@android:id/list" android:background="#ff12283f" android:divider="#ff12283f" android:layout_height="225dp">
+		
+		</ListView>
+<EditText android:imeOptions="actionSend" android:inputType="text|textAutoCorrect" android:id="@+id/input_msg" android:textStyle="italic" android:layout_height="fill_parent" android:layout_width="fill_parent" android:textColor="#12283f" android:layout_x="0px" android:minWidth="420px" android:layout_y="227dp" android:textSize="16dp"/>
+<Button android:layout_height="wrap_content" android:id="@+id/send" android:text="Send" android:layout_x="420dp" android:layout_y="227dp" android:minWidth="60dp" android:layout_width="fill_parent"></Button>
+
+</AbsoluteLayout>
+</LinearLayout>
+
+
